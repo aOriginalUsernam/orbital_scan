@@ -4,7 +4,7 @@ def main():
         columns = int(input("columns: "))
         data_float = int(input("data: "))
         data_2D_format = makeFormat(rows, columns, data_float)
-        print_2D_format(data_2D_format)
+        # print_2D_format(data_2D_format)
         print(calc_highest_terain(data_2D_format))
     except ValueError:
         print("corrupt data")
